@@ -1,0 +1,445 @@
+body {
+  background-color: #ffffff;
+  color: #0c0c0c;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 3.25px;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  width: auto;
+  height: 50px;
+  background-color: #000000;
+  max-width: 100%;
+  align-items: center;
+}
+
+.italo_calvino {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 3.25px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 73px;
+  color: #ffffff;
+  margin: 60px;
+}
+
+header nav ul li a {
+  color: #fff;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+hr {
+  width: 53px;
+  height: 3px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 55px;
+  margin: 60px;
+}
+
+.txtphoto {
+  height: 900;
+  position: relative;
+}
+
+.txtphoto img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.txtphoto h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  color: #ffffff;
+}
+
+.libricalv {
+  height: 520px;
+}
+
+.libricalv {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  font-weight: 300;
+  line-height: 110%; /* 58.5px */
+  text-transform: uppercase;
+  display: flex;
+  margin: 100px;
+}
+
+.scopri {
+  width: 237px;
+  height: 60px;
+  border-radius: 30px;
+  background: #000;
+  margin: 100px;
+}
+
+.scopri:hover {
+  cursor: help;
+}
+
+.scopri h6 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 17px;
+  margin-left: 30px;
+  display: flex;
+}
+
+.lnc h4 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  font-weight: 400;
+  margin: 100px;
+  margin-top: 45px;
+}
+
+.lnc {
+  background-color: #000;
+  width: auto;
+  height: 165px;
+  display: flex;
+}
+
+.prjct h4 {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  font-weight: 400;
+  margin: 100px;
+  margin-top: 45px;
+}
+
+.prjct {
+  background-color: #fff;
+  width: auto;
+  height: 165px;
+  display: flex;
+}
+
+.msg h4 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  font-weight: 400;
+  margin: 100px;
+  margin-top: 45px;
+}
+
+.msg {
+  background-color: #000;
+  width: auto;
+  height: 165px;
+  display: flex;
+}
+
+.txt1 h5 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 85px;
+  font-weight: 400;
+  margin: 100px;
+  width: 870px;
+}
+
+.txt1 p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 110%; /* 42px */
+  width: 756px;
+  margin: 100px;
+}
+
+.txt1 {
+  background-color: #000;
+  width: auto;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt2 h5 {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 85px;
+  font-weight: 400;
+  margin: 100px;
+  width: 870px;
+}
+
+.txt2 p {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 110%; /* 42px */
+  width: 756px;
+  margin: 100px;
+}
+
+.txt2 {
+  background-color: #fff;
+  width: auto;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt3 h5 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 85px;
+  font-weight: 400;
+  margin: 100px;
+  width: 870px;
+}
+
+.txt3 p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 110%; /* 42px */
+  width: 756px;
+  margin: 100px;
+}
+
+.txt3 {
+  background-color: #000;
+  width: auto;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonNewsletter {
+  width: 500px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-left: 100px;
+}
+
+.buttonNewsletter:hover {
+  cursor: help;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  background-color: #fff;
+  padding-bottom: 2rem 0 4rem 0;
+}
+
+.footer {
+  width: 80%;
+  height: 40vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  justify-content: space-between;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading h6 {
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.footer-heading a {
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width:1440px){
+  .italo_calvino {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 3.25px;
+  }
+}
+
+
+@media screen and (max-width: 1300px) {
+  .italo_calvino {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 3.25px;
+  }
+
+  .menu {
+    margin-left: -20px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+
+    .txtphoto h2{
+      text-align: end;
+      
+    }
+      
+    .scopri{
+      margin-top: 150px;
+    }
+
+    .lnc h4{
+      margin-top: 0px;
+    }
+
+    .txt1{
+      margin-left: -70px;
+    }
+
+    .lnc h4{
+      margin-top: 0px;
+      font-weight: 200;
+      height: max-content;
+      padding: 5px;
+    }
+    .txt2{
+      margin-left: -70px;
+    }
+    .txt3{
+      margin-left: -70px;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+  .menu{
+    height: 30px;
+
+  }
+  .menu hr{
+    width: 30px;
+  }
+
+  .italo_calvino{
+    font-size: large;
+    margin-left: -30px;
+  }
+
+  .navbar {
+    margin-left: -40px;
+  }
+
+  .navbar li {
+    margin-right: -40px;
+  }
+
+  .libricalv{
+    margin-left: 5px;
+  }
+
+  .libricalv h3{
+    font-size: 50px;
+  }
+
+  .lnc h4{
+    margin-left: 5px;
+  }
+
+  .prjct h4{
+    margin-left: 5px;
+  }
+
+  .msg h4{
+    margin-left: 5px;
+    margin-top: 2px;
+    text-align: left;
+  }
+
+  .txt1 p{
+    height: 300px;
+    width: 500px;
+  }
+
+  .txt2 h5{
+    font-size: 70px;
+  }
+
+  .txt2 p{
+    height: 300px;
+    width: 500px;
+  }
+  
+  .txt3 h5{
+    font-size: 70px;
+  }
+  .txt3 p{
+    height: 300px;
+    width: 500px;
+  }
+}
